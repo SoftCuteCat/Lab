@@ -32,6 +32,7 @@ class CSVReaderTest {
         Exception exception = assertThrows(Exception.class, () -> csv.reading());
         assertEquals("Contains incorrect data in column C line 4! Please fix it.", exception.getMessage());
     }
+    //2
 
     @org.junit.jupiter.api.Test
     void test5() throws Exception{
